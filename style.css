@@ -1,0 +1,76 @@
+*:not(i) {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto !important;
+  color: #e6e5e5 !important;
+}
+body {
+
+  background-color: #20242d !important;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+  padding: 2rem 1rem;
+  font-size: 20px;
+}
+
+nav a:hover, .social-links:hover {
+  color: #a46bb8 !important;
+  transition: all 0.1s ease-in;
+}
+
+.hero {
+  height: 70%;
+  border-radius: 20%;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.hero-content {
+  min-height: 60vh;
+}
+
+.primary-color {
+  color: #0a8091 !important;
+}
+.social-links {
+  font-size: 30px;
+  padding: 15px;
+}
+
+.div-header h1 {
+  font-weight: bold;
+  border-bottom: 3px solid #0a8091;
+}
+
+.div-content {
+    background-color: #2a3c53 !important;
+    border-radius: 10px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.skills {
+    text-align: justify;
+}
+
+.card {
+    background-color: #032e35;
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.project {
+    padding: 1rem;
+    transition: all 0.3s ease;
+}
+
+.project:hover {
+    transform: translateY(-5px);
+}
