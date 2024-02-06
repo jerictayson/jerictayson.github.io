@@ -16,6 +16,8 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
     <title>Test Portfolio</title>
   </head>
   <body class="container">
@@ -37,7 +39,7 @@
             <h3 class="fw-bolder">Hello! I am</h3>
             <h2 class="fw-bolder" style="font-size: 70px">Jeric Tayson</h2>
             <h3 class="fw-bolder">
-              I'm a <span class="primary-color">Programmer</span>
+              I'm a <span class="primary-color auto-type"></span>
             </h3>
             <div class="d-flex mt-1">
               <a href="" class="d-flex justify-content-center social-links">
@@ -236,4 +238,12 @@
     </main>
     <footer></footer>
   </body>
+  <script>
+    let type = new Typed(".auto-type", {
+      strings: ["Developer.", "Software Designer.", "Linux Geek.", "Programmer."],
+      typeSpeed: 100,
+      backSpeed: 100,
+      loop: true,
+    });
+  </script>
 </html>
