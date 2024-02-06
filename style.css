@@ -1,3 +1,7 @@
+html {
+  scroll-padding-top: 100px;
+}
+
 *:not(i) {
   margin: 0;
   padding: 0;
@@ -6,8 +10,14 @@
   color: #e6e5e5 !important;
 }
 body {
-
   background-color: #20242d !important;
+}
+
+nav {
+  top: 0px !important;
+  background-color: #20242d;
+  z-index: 1;
+  transition: all 0.3s ease-in;
 }
 
 nav a {
@@ -18,9 +28,23 @@ nav a {
   font-size: 20px;
 }
 
-nav a:hover, .social-links:hover {
+nav a::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: white;
+  transition: all 0.3s;
+}
+
+nav a:hover,
+.social-links:hover {
   color: #a46bb8 !important;
   transition: all 0.1s ease-in;
+}
+
+nav a:hover::after {
+  width: 100%;
 }
 
 .hero {
@@ -48,31 +72,30 @@ nav a:hover, .social-links:hover {
 }
 
 .div-content {
-    background-color: #2a3c53 !important;
-    border-radius: 10px;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+  background-color: #2a3c53 !important;
+  border-radius: 10px;
+  margin-bottom: 5rem;
 }
 .skills {
-    text-align: justify;
+  text-align: justify;
 }
 
 .card {
-    background-color: #032e35;
+  background-color: #032e35;
 }
 
 .card img {
-    height: 200px;
-    object-fit: cover;
+  height: 200px;
+  object-fit: cover;
 }
 
 .project {
-    padding: 1rem;
-    transition: all 0.3s ease;
+  padding: 1rem;
+  transition: all 0.3s ease;
 }
 
 .project:hover {
-    transform: translateY(-5px);
+  transform: translateY(-5px);
 }
 .logo {
   width: 120px;
