@@ -55,6 +55,11 @@
                 <i class="fa-brands fa-signal-messenger"></i>
               </a>
             </div>
+            <div class="d-flex">
+              <button onclick="downloadCV()" class="btn btn-outline-primary btn-lg" id="download">
+                Download CV
+              </button>
+            </div>
           </div>
         </div>
         <div class="col-6 d-flex justify-content-end align-items-center">
@@ -265,5 +270,14 @@
       backSpeed: 100,
       loop: true,
     });
+
+    const downloadCV = () => {
+      const cv = "document/MyResume.pdf";
+      const newlink = document.createElement("a");
+      newlink.href = cv;
+      newlink.download = "Jericson_Tayson.pdf";
+      newlink.target = "_blank";
+      newlink.click();
+    };
   </script>
 </html>
