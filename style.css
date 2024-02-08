@@ -23,7 +23,7 @@ nav {
 nav a {
   text-decoration: none;
   color: white;
-  font-weight: bolder;
+  font-weight: bolder !important;
   padding: 2rem 1rem;
   font-size: 20px;
 }
@@ -58,6 +58,10 @@ nav a:hover::after {
   min-height: 60vh;
 }
 
+.navbar-toggler {
+  border: 1px solid white;
+}
+
 .primary-color {
   color: #0a8091 !important;
 }
@@ -67,7 +71,7 @@ nav a:hover::after {
 }
 
 .div-header h1 {
-  font-weight: bold;
+  font-weight: bolder !important;
   border-bottom: 3px solid #0a8091;
 }
 
@@ -118,4 +122,5 @@ nav a:hover::after {
   .logo {
     width: 70px;
   }
+  
 }
