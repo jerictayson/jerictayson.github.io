@@ -106,8 +106,18 @@ nav a:hover::after {
   border-radius: 10px;
 }
 
-.modal, .modal-dialog, .modal-content, .modal-body {
-  background-color: #2a3c53;
+.modal-dialog, .modal-content, .modal-body {
+  background-color: #032e35;
+  border-radius: 10px;
+}
+
+.btn-close {
+  background-color: white !important;
+}
+
+.screenshot-label {
+
+  margin: 10px 0px;
 }
 
 .tags {
@@ -130,6 +140,14 @@ nav a:hover::after {
   background-color: #a46bb8;
 }
 
+
+.screenshot {
+
+  width: 100%;
+  display: block;
+
+}
+
 @media screen and (min-width: 300px) and (max-width: 900px)  {
   
   .logo {
@@ -137,3 +155,4 @@ nav a:hover::after {
   }
   
 }
+
