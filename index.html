@@ -203,7 +203,11 @@
 
         <div class="row">
           <div class="col-xl-4 col-12 project">
-            <a href="" class="text-decoration-none">
+            <button
+              class="border-0 rounded-3"
+              data-bs-toggle="modal"
+              data-bs-target="#stilms"
+            >
               <div class="card h-100">
                 <img
                   class="card-img-top"
@@ -230,10 +234,14 @@
                   </div>
                 </div>
               </div>
-            </a>
+            </button>
           </div>
           <div class="col-xl-4 col-12 project">
-            <a href="" class="text-decoration-none">
+            <button
+              class="border-0 rounded-3"
+              data-bs-toggle="modal"
+              data-bs-target="#pos"
+            >
               <div class="card h-100">
                 <img
                   class="card-img-top"
@@ -260,10 +268,14 @@
                   </div>
                 </div>
               </div>
-            </a>
+            </button>
           </div>
           <div class="col-xl-4 col-12 project">
-            <a href="" class="text-decoration-none">
+            <button
+              class="border-0 rounded-3"
+              data-bs-toggle="modal"
+              data-bs-target="#procurement"
+            >
               <div class="card h-100">
                 <img
                   class="card-img-top"
@@ -289,7 +301,7 @@
                   </div>
                 </div>
               </div>
-            </a>
+            </button>
           </div>
         </div>
       </div>
@@ -309,6 +321,107 @@
         </div>
       </div>
     </main>
+
+    <!-- Modal -->
+    <!-- STILMS -->
+    <div
+      class="modal fade"
+      id="stilms"
+      tabindex="-1"
+      aria-labelledby="stilms"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5">Modal title</h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">...</div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- POS -->
+    <div
+      class="modal fade"
+      id="pos"
+      tabindex="-1"
+      aria-labelledby="pos"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="pos">Modal title</h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">...</div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Procurement -->
+    <div
+      class="modal fade"
+      id="procurement"
+      tabindex="-1"
+      aria-labelledby="procurement"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5">Modal title</h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">...</div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
     <footer>
       <div class="row containbr justify-content-center align-items-center p-5">
         <div class="col-12 mb-1">
@@ -318,6 +431,7 @@
           <div>
             <img src="./images/logos/html-5.png" class="footer-logo" />
             <img src="./images/logos/css-3.png" class="footer-logo" />
+            <img src="./images/logos/bootstrap.png" class="footer-logo" />
             <img src="./images/logos/js.png" class="footer-logo" />
           </div>
         </div>

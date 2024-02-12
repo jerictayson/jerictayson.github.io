@@ -10,7 +10,7 @@ html {
   color: #e6e5e5 !important;
 }
 body {
-  background-color: #20242d !important;
+  background-color: #20242d;
 }
 
 nav {
@@ -63,7 +63,7 @@ nav a:hover::after {
 }
 
 .primary-color {
-  color: #0a8091 !important;
+  color: #0a8091;
 }
 .social-links {
   font-size: 30px;
@@ -71,12 +71,12 @@ nav a:hover::after {
 }
 
 .div-header h1 {
-  font-weight: bolder !important;
+  font-weight: bolder;
   border-bottom: 3px solid #0a8091;
 }
 
 .div-content {
-  background-color: #2a3c53 !important;
+  background-color: #2a3c53;
   border-radius: 10px;
   margin-bottom: 5rem;
 }
@@ -106,6 +106,10 @@ nav a:hover::after {
   border-radius: 10px;
 }
 
+.modal, .modal-dialog, .modal-content, .modal-body {
+  background-color: #2a3c53;
+}
+
 .tags {
   display: flex;
   justify-content: center;
@@ -123,7 +127,7 @@ nav a:hover::after {
 }
 
 .btn:hover {
-  background-color: #a46bb8 !important;
+  background-color: #a46bb8;
 }
 
 @media screen and (min-width: 300px) and (max-width: 900px)  {
