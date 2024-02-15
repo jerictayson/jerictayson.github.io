@@ -63,7 +63,7 @@ nav a:hover::after {
 }
 
 .primary-color {
-  color: #0a8091;
+  color: #0a8091 !important;
 }
 .social-links {
   font-size: 30px;
@@ -106,7 +106,9 @@ nav a:hover::after {
   border-radius: 10px;
 }
 
-.modal-dialog, .modal-content, .modal-body {
+.modal-dialog,
+.modal-content,
+.modal-body {
   background-color: #032e35;
   border-radius: 10px;
 }
@@ -116,7 +118,6 @@ nav a:hover::after {
 }
 
 .screenshot-label {
-
   margin: 10px 0;
 }
 
@@ -132,7 +133,6 @@ nav a:hover::after {
 }
 
 .footer-logo {
-
   width: 30px;
 }
 
@@ -140,19 +140,13 @@ nav a:hover::after {
   background-color: #a46bb8;
 }
 
-
 .screenshot {
-
   width: 100%;
   display: block;
-
 }
 
-@media screen and (min-width: 300px) and (max-width: 900px)  {
-  
+@media screen and (min-width: 300px) and (max-width: 900px) {
   .logo {
     width: 70px;
   }
-  
 }
-
