@@ -11,6 +11,14 @@ html {
 }
 body {
   background-color: #20242d;
+  overflow-x: hidden;
+}
+
+#demo-canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
 
 nav {

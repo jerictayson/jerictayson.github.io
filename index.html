@@ -21,7 +21,7 @@
 
     <title>Jeric Tayson</title>
   </head>
-  <body class="container">
+  <body class="container-fluid" id="body">
     <nav class="navbar navbar-expand-lg fixed-top">
       <div class="container">
         <a class="navbar-brand" href="#">Jeric Tayson</a>
@@ -59,7 +59,8 @@
         </div>
       </div>
     </nav>
-    <main class="row justify-content-center">
+    <canvas id="demo-canvas"></canvas>
+    <main class="row container mx-auto justify-content-center">
       <div class="row col-12 hero-content" id="home">
         <div
           class="col-xl-6 col-12 pt-xl-0 mt-xl-0 pt-5 mt-5 row align-items-center justify-content-center"
@@ -1163,6 +1164,8 @@
     integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
     crossorigin="anonymous"
   ></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
+  <script src="script.js"></script>
   <script>
     let type = new Typed(".auto-type", {
       strings: [
