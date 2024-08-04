@@ -320,7 +320,7 @@ const projects = [
     },
   },
   {
-    imagesSrc: "./screenshots/pos/CustomerUIDefault.png",
+    imgSrc: "./screenshots/pos/CustomerUIDefault.png",
     title: "Real time Point of Sales System on pandemic environment",
     description:
       "This project focuses on developing a real-time point of sales (POS) system tailored for businesses operating in the pandemic environment. The system is designed to provide a seamless and contactless shopping experience, prioritizing the health and safety of both customers and staff.",
@@ -506,7 +506,7 @@ const projects = [
     },
   },
   {
-    imagesSrc: "/screenshots/procurement-system/Dashboard.png",
+    imgSrc: "/screenshots/procurement-system/Dashboard.png",
     title: "Procurement System for Prudo School Supplies",
     description:
       "Procurement system for Prudo School Supplies facilitates efficient management of procurement requests, supplier interactions, and order tracking, ensuring a smooth and organized workflow.",
