@@ -40,125 +40,272 @@ const projects = [
       ],
       screenshots: [
         {
-          images: ["./screenshots/stilms/screenshot9.png"],
+          images: [
+            {
+              img: "./screenshots/stilms/screenshot9.png",
+              isSmall: false,
+            },
+          ],
           label: "Login Page",
         },
         {
-          images: ["./screenshots/stilms/Dashboard.PNG"],
+          images: [
+            {
+              img: "./screenshots/stilms/Dashboard.PNG",
+              isSmall: false,
+            },
+          ],
           label: "Admin Main Dashboard",
         },
         {
-          images: ["./screenshots/stilms/StudentAssistantDashboard.PNG"],
+          images: [
+            {
+              img: "./screenshots/stilms/StudentAssistantDashboard.PNG",
+              isSmall: false,
+            },
+          ],
           label: "Student Assistant Main Dashboard",
         },
         {
-          images: ["./screenshots/stilms/CollegeStudentList.PNG"],
+          images: [
+            {
+              img: "./screenshots/stilms/CollegeStudentList.PNG",
+              isSmall: false,
+            },
+          ],
           label: "College Student List",
         },
         {
-          images: ["./screenshots/stilms/SHSStudentList.PNG"],
+          images: [
+            {
+              img: "./screenshots/stilms/SHSStudentList.PNG",
+              isSmall: false,
+            },
+          ],
           label: "SHS Student List",
         },
         {
-          images: ["./screenshots/stilms/AttendanceLogs.PNG"],
+          images: [
+            {
+              img: "./screenshots/stilms/AttendanceLogs.PNG",
+              isSmall: false,
+            },
+          ],
           label: "Student Attendance Logs",
         },
         {
-          images: ["./screenshots/stilms/AddStudent.PNG"],
+          images: [
+            {
+              img: "./screenshots/stilms/AddStudent.PNG",
+              isSmall: false,
+            },
+          ],
           label: "Add Student Page",
         },
         {
-          images: ["./screenshots/stilms/screenshot3.png"],
+          images: [
+            {
+              img: "./screenshots/stilms/screenshot3.png",
+              isSmall: false,
+            },
+          ],
           label: "Library Card Printing",
         },
         {
-          images: ["./screenshots/stilms/AddTeacher.PNG"],
+          images: [
+            {
+              img: "./screenshots/stilms/AddTeacher.PNG",
+              isSmall: false,
+            },
+          ],
           label: "Add Teacher",
         },
         {
-          images: ["./screenshots/stilms/TeachersList.PNG"],
+          images: [
+            {
+              img: "./screenshots/stilms/TeachersList.PNG",
+              isSmall: false,
+            },
+          ],
           label: "Teachers List",
         },
         {
-          images: ["./screenshots/stilms/OPAC.PNG"],
+          images: [
+            {
+              img: "./screenshots/stilms/OPAC.PNG",
+              isSmall: false,
+            },
+          ],
           label: "OPAC UI",
         },
         {
           images: [
-            "./screenshots/stilms/AddAnnouncement-Editor.PNG",
-            "./screenshots/stilms/AddAnnouncement-Image.PNG",
+            {
+              img: "./screenshots/stilms/AddAnnouncement-Editor.PNG",
+              isSmall: false,
+            },
+            {
+              img: "./screenshots/stilms/AddAnnouncement-Image.PNG",
+              isSmall: false,
+            },
           ],
           label: "Announcement Creator Page",
         },
         {
-          images: ["./screenshots/stilms/AnnouncementList.PNG"],
+          images: [
+            {
+              img: "./screenshots/stilms/AnnouncementList.PNG",
+              isSmall: false,
+            },
+          ],
           label: "Announcement List",
         },
         {
-          images: ["./screenshots/stilms/Kiosk.PNG"],
+          images: [
+            {
+              img: "./screenshots/stilms/Kiosk.PNG",
+              isSmall: false,
+            },
+          ],
           label: "KIOSK UI",
         },
         {
           images: [
-            "./screenshots/stilms/kyle.PNG",
-            "./screenshots/stilms/orantia.PNG",
+            {
+              img: "./screenshots/stilms/kyle.PNG",
+              isSmall: false,
+            },
+            {
+              img: "./screenshots/stilms/orantia.PNG",
+              isSmall: false,
+            },
           ],
           label: "Sample Student Attendance",
         },
         {
-          images: ["./screenshots/stilms/CreateBook.PNG"],
+          images: [
+            {
+              img: "./screenshots/stilms/CreateBook.PNG",
+              isSmall: false,
+            },
+          ],
           label: "Sample Student Attendance",
         },
         {
-          images: ["./screenshots/stilms/CreateBook.PNG"],
+          images: [
+            {
+              img: "./screenshots/stilms/CreateBook.PNG",
+              isSmall: false,
+            },
+          ],
           label: "Adding new book",
         },
         {
-          images: ["./screenshots/stilms/BookList.PNG"],
+          images: [
+            {
+              img: "./screenshots/stilms/BookList.PNG",
+              isSmall: false,
+            },
+          ],
           label: "Book List",
         },
         {
-          images: ["./screenshots/stilms/BookInfoWindow.PNG"],
+          images: [
+            {
+              img: "./screenshots/stilms/BookInfoWindow.PNG",
+              isSmall: false,
+            },
+          ],
           label: "Book Info",
         },
         {
-          images: ["./screenshots/stilms/ManageAccessionsNumber.PNG"],
+          images: [
+            {
+              img: "./screenshots/stilms/ManageAccessionsNumber.PNG",
+              isSmall: false,
+            },
+          ],
           label: "Manage Accession Numbers",
         },
         {
-          images: ["./screenshots/stilms/CreateBorrow.PNG"],
+          images: [
+            {
+              img: "./screenshots/stilms/CreateBorrow.PNG",
+              isSmall: false,
+            },
+          ],
           label: "Create Borrow",
         },
         {
-          images: ["./screenshots/stilms/FindStudent.PNG"],
+          images: [
+            {
+              img: "./screenshots/stilms/FindStudent.PNG",
+              isSmall: false,
+            },
+          ],
           label: "Find Student",
         },
         {
-          images: ["./screenshots/stilms/ExtendBorrowing.PNG"],
+          images: [
+            {
+              img: "./screenshots/stilms/ExtendBorrowing.PNG",
+              isSmall: false,
+            },
+          ],
           label: "Extend Borrow",
         },
         {
-          images: ["./screenshots/stilms/PayReturnBooks.PNG"],
+          images: [
+            {
+              img: "./screenshots/stilms/PayReturnBooks.PNG",
+              isSmall: false,
+            },
+          ],
           label: "Pay/Return Books",
         },
         {
-          images: ["./screenshots/stilms/BorrowingHistory.PNG"],
+          images: [
+            {
+              img: "./screenshots/stilms/BorrowingHistory.PNG",
+              isSmall: false,
+            },
+          ],
           label: "Borrowing History",
         },
         {
-          images: ["./screenshots/stilms/BorrowingHistoryDetails.PNG"],
+          images: [
+            {
+              img: "./screenshots/stilms/BorrowingHistoryDetails.PNG",
+              isSmall: false,
+            },
+          ],
           label: "Borrowing History Details",
         },
         {
-          images: ["./screenshots/stilms/ManageAuthors.PNG"],
+          images: [
+            {
+              img: "./screenshots/stilms/ManageAuthors.PNG",
+              isSmall: false,
+            },
+          ],
           label: "Manage Authors",
         },
         {
-          images: ["./screenshots/stilms/ManageSubjects.PNG"],
+          images: [
+            {
+              img: "./screenshots/stilms/ManageSubjects.PNG",
+              isSmall: false,
+            },
+          ],
           label: "Manage Subjects",
         },
         {
-          images: ["./screenshots/stilms/ManageCourses.PNG"],
+          images: [
+            {
+              img: "./screenshots/stilms/ManageCourses.PNG",
+              isSmall: false,
+            },
+          ],
           label: "Manage Courses",
         },
       ],
@@ -194,75 +341,165 @@ const projects = [
 
       screenshots: [
         {
-          images: ["screenshots/pos/Login.png"],
+          images: [
+            {
+              img: "screenshots/pos/Login.png",
+              isSmall: true,
+            },
+          ],
           label: "Login UI",
         },
         {
-          images: ["screenshots/pos/CustomerUIDefault.png"],
+          images: [
+            {
+              img: "screenshots/pos/CustomerUIDefault.png",
+              isSmall: false,
+            },
+          ],
           label: "Customer UI",
         },
         {
-          images: ["screenshots/pos/CustomerUI.png"],
+          images: [
+            {
+              img: "screenshots/pos/CustomerUI.png",
+              isSmall: false,
+            },
+          ],
           label: "Customer UI with Products",
         },
         {
-          images: ["screenshots/pos/TicketOrder.png"],
+          images: [
+            {
+              img: "screenshots/pos/TicketOrder.png",
+              isSmall: true,
+            },
+          ],
           label: "Ticker Order",
         },
         {
-          images: ["screenshots/pos/LoginUI.png"],
+          images: [
+            {
+              img: "screenshots/pos/LoginUI.png",
+              isSmall: true,
+            },
+          ],
           label: "Login UI for Customer/Admin",
         },
         {
-          images: ["screenshots/pos/CashierWindow.png"],
+          images: [
+            {
+              img: "screenshots/pos/CashierWindow.png",
+              isSmall: false,
+            },
+          ],
           label: "Cashier Window",
         },
         {
-          images: ["screenshots/pos/CashierOrder.png"],
+          images: [
+            {
+              img: "screenshots/pos/CashierOrder.png",
+              isSmall: false,
+            },
+          ],
           label: "Cashier Processing Order",
         },
         {
-          images: ["screenshots/pos/Receipt.png"],
+          images: [
+            {
+              img: "screenshots/pos/Receipt.png",
+              isSmall: false,
+            },
+          ],
           label: "Receipt Format",
         },
         {
-          images: ["screenshots/pos/CashierTransactionHistory.png"],
+          images: [
+            {
+              img: "screenshots/pos/CashierTransactionHistory.png",
+              isSmall: false,
+            },
+          ],
           label: "Cashier Transaction History",
         },
         {
-          images: ["screenshots/pos/CashierInvetoryHistory.png"],
+          images: [
+            {
+              img: "screenshots/pos/CashierInvetoryHistory.png",
+              isSmall: false,
+            },
+          ],
           label: "Cashier View Inventory",
         },
         {
-          images: ["screenshots/pos/CashierOrder.png"],
+          images: [
+            {
+              img: "screenshots/pos/CashierOrder.png",
+              isSmall: false,
+            },
+          ],
           label: "Cashier Processing Order",
         },
         {
-          images: ["screenshots/pos/AdminCashierHistories.png"],
+          images: [
+            {
+              img: "screenshots/pos/AdminCashierHistories.png",
+              isSmall: false,
+            },
+          ],
           label: "Admin UI",
         },
         {
-          images: ["screenshots/pos/AdminManageAccount.png"],
+          images: [
+            {
+              img: "screenshots/pos/AdminManageAccount.png",
+              isSmall: false,
+            },
+          ],
           label: "Manage Accounts",
         },
         {
-          images: ["screenshots/pos/EmployeeInformation.png"],
+          images: [
+            {
+              img: "screenshots/pos/EmployeeInformation.png",
+              isSmall: true,
+            },
+          ],
           label: "Employee Information",
         },
         {
-          images: ["screenshots/pos/AdminManageInventory.png"],
+          images: [
+            {
+              img: "screenshots/pos/AdminManageInventory.png",
+              isSmall: false,
+            },
+          ],
           label: "Manage Inventory",
         },
         {
-          images: ["screenshots/pos/AdminInventoryChanges.png"],
+          images: [
+            {
+              img: "screenshots/pos/AdminInventoryChanges.png",
+              isSmall: false,
+            },
+          ],
           label: "Inventory Changes Window",
         },
         {
-          images: ["screenshots/pos/AdminAccountChanges.png"],
+          images: [
+            {
+              img: "screenshots/pos/AdminAccountChanges.png",
+              isSmall: false,
+            },
+          ],
           label: "Account Changes Window",
         },
         {
-          images: ["screenshots/pos/erd.png"],
+          images: [
+            {
+              img: "screenshots/pos/erd.png",
+              isSmall: false,
+            },
+          ],
           label: "Entity Relationship Diagram",
         },
       ],
