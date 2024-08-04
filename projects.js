@@ -11,7 +11,7 @@ const projects = [
       "ASP.Net Core WebAPI",
       "Microsoft SQL Server",
       "Entity Framework Core",
-      "REST Backend"
+      "REST Backend",
     ],
     targetModal: "#stilms",
     modal: {
@@ -681,6 +681,252 @@ const projects = [
           label: "Entity Relationship Diagram Products",
         },
       ],
+    },
+  },
+  {
+    imgSrc: "./screenshots/online-orders/Dashboard.png",
+    title: "Online Ordering System for Foster Foods Inc.",
+    description:
+      "This project aims for creating online ordering system for Foster Foods Inc. It mainly focuses on unifying their online ordering on their company and provide easy access of orders, stocks, customers etc.",
+    badges: [
+      "C#",
+      "ASP.NET MVC",
+      "Dev Express Reports",
+      "Microsoft SQL Server",
+      "HTML",
+      "CSS",
+      "Javascript",
+      "Bootstrap 5",
+      "JQuery",
+    ],
+    targetModal: "#online-ordering",
+    modal: {
+      modalId: "online-ordering",
+      title: "Online Ordering System",
+      subTitle: " Online Ordering System for Foster Foods Inc.",
+      features: [
+        "Customer Management - The system can manage customers list",
+        "Orders Management - The system can track and manage orders to for each clients",
+        "Customer Price List Management - The system can create custom price list for each respective customers",
+        "Inventory Management - The system can track and manage inventory of stocks",
+        "Transaction History - The system can track each order delivery and statuses",
+        "Purchase Order Reporting - The system can generate reports on the created order",
+        "Order Summary Reporting - The system can generate reports on Orders with filtering capabilities",
+        "Sales Order Reporting - The system can generate reports on each customer order with filtering capabilities",
+        "Importing Excel and Export - The system can parsed excel data or export records from the database",
+      ],
+
+      screenshots: [
+        {
+          images: [
+            {
+              img: "screenshots/online-orders/Login.png",
+              isSmall: false,
+            },
+          ],
+          label: "Login UI",
+        },
+        {
+          images: [
+            {
+              img: "screenshots/online-orders/Dashboard.png",
+              isSmall: false,
+            },
+          ],
+          label: "Admin Side",
+        },
+        {
+          images: [
+            {
+              img: "screenshots/online-orders/AddCustomer.png",
+              isSmall: false,
+            },
+          ],
+          label: "Adding Customer List",
+        },
+        {
+          images: [
+            {
+              img: "screenshots/online-orders/Items.png",
+              isSmall: false,
+            },
+          ],
+          label: "Item List",
+        },
+        {
+          images: [
+            {
+              img: "screenshots/online-orders/AddItem.png",
+              isSmall: false,
+            },
+          ],
+          label: "Add Item",
+        },
+        {
+          images: [
+            {
+              img: "screenshots/online-orders/ItemGroup.png",
+              isSmall: false,
+            },
+          ],
+          label: "Item Group List",
+        },
+        {
+          images: [
+            {
+              img: "screenshots/online-orders/AddItemGroup.png",
+              isSmall: false,
+            },
+          ],
+          label: "Add Item Group",
+        },
+        {
+          images: [
+            {
+              img: "screenshots/online-orders/CustomerSpecWindow.png",
+              isSmall: false,
+            },
+          ],
+          label: "Customer Spec Window",
+        },
+        {
+          images: [
+            {
+              img: "screenshots/online-orders/AddCustomerSpecWindow.png",
+              isSmall: false,
+            },
+          ],
+          label: "Add Customer Spec",
+        },
+        {
+          images: [
+            {
+              img: "screenshots/online-orders/ParsedExcelDataImport.png",
+              isSmall: false,
+            },
+          ],
+          label: "Window on parsing excel import",
+        },
+        {
+          images: [
+            {
+              img: "screenshots/online-orders/UserListWindow.png",
+              isSmall: false,
+            },
+          ],
+          label: "User Account List",
+        },
+        {
+          images: [
+            {
+              img: "screenshots/online-orders/AddAdminAccount.png",
+              isSmall: false,
+            },
+          ],
+          label: "Add Admin Accounts with granular permission",
+        },
+        {
+          images: [
+            {
+              img: "screenshots/online-orders/AddCustomerAccount.png",
+              isSmall: false,
+            },
+          ],
+          label: "Add Customer Account (Sales Account or Encoder Account)",
+        },
+        {
+          images: [
+            {
+              img: "screenshots/online-orders/PurchaseOrderWindow.png",
+              isSmall: false,
+            },
+          ],
+          label: "Purchase Orders",
+        },
+        {
+          images: [
+            {
+              img: "screenshots/online-orders/ViewPurchaseOrderDetails.png",
+              isSmall: false,
+            },
+          ],
+          label: "Purchase Order Details Window",
+        },
+        {
+          images: [
+            {
+              img: "screenshots/online-orders/SalesOrderWindow.png",
+              isSmall: false,
+            },
+          ],
+          label: "Sales Order Window",
+        },
+        {
+          images: [
+            {
+              img: "screenshots/online-orders/SalesOrderReport.png",
+              isSmall: false,
+            },
+          ],
+          label: "Sales Order Report using DevExpress",
+        },
+        {
+          images: [
+            {
+              img: "screenshots/online-orders/OrderSummaryWindow.png",
+              isSmall: false,
+            },
+          ],
+          label: "Order Summary Window",
+        },
+
+        {
+          images: [
+            {
+              img: "screenshots/online-orders/OrderSummary.png",
+              isSmall: false,
+            },
+          ],
+          label: "Order Summary Report using DevExpress",
+        },
+        {
+          images: [
+            {
+              img: "screenshots/online-orders/CustomerSide.png",
+              isSmall: false,
+            },
+          ],
+          label: "Customer Side Window",
+        },
+        {
+          images: [
+            {
+              img: "screenshots/online-orders/CreatingOrder.png",
+              isSmall: false,
+            },
+          ],
+          label: "Creating Purchase Order",
+        },
+        {
+          images: [
+            {
+              img: "screenshots/online-orders/ShowingCustomerSpec.png",
+              isSmall: false,
+            },
+          ],
+          label: "Customer Price List",
+        },
+        {
+          images: [
+            {
+              img: "screenshots/online-orders/PurchaseOrderReport.png",
+              isSmall: false,
+            },
+          ],
+          label: "Purchase Order Report using DevExpress",
+        },
+      ],
+      
     },
   },
 ];
