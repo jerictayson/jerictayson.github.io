@@ -5,10 +5,13 @@ const projects = [
     description:
       "A Web based library project for STI College Malolos built using ReactJS(Typescript) and ASP.NET Core WebAPI. This project is our capstone project to complete our BSIT College Course in STI College Malolos.",
     badges: [
+      "C#",
       "Typescript",
       "ReactJS",
       "ASP.Net Core WebAPI",
       "Microsoft SQL Server",
+      "Entity Framework Core",
+      "REST Backend"
     ],
     targetModal: "#stilms",
     modal: {
@@ -533,152 +536,151 @@ const projects = [
         "Add, Edit, Delete of Payment Terms",
       ],
       screenshots: [
-        
-          {
-            images: [
-              {
-                img: "screenshots/procurement-system/Dashboard.png",
-                isSmall: false,
-              },
-            ],
-            label: "Overview",
-          },
-          {
-            images: [
-              {
-                img: "screenshots/procurement-system/CreateQuote.png",
-                isSmall: false,
-              },
-            ],
-            label: "Creating Quotations",
-          },
-          {
-            images: [
-              {
-                img: "screenshots/procurement-system/CompareQuote.png",
-                isSmall: false,
-              },
-            ],
-            label: "Comparing Quotations",
-          },
-          {
-            images: [
-              {
-                img: "screenshots/procurement-system/QuotationWindow.png",
-                isSmall: false,
-              },
-            ],
-            label: "Quotation Window",
-          },
-          {
-            images: [
-              {
-                img: "screenshots/procurement-system/UpdateQuote.png",
-                isSmall: false,
-              },
-            ],
-            label: "Updating Quotation",
-          },
-          {
-            images: [
-              {
-                img: "screenshots/procurement-system/CreatePO.png",
-                isSmall: false,
-              },
-            ],
-            label: "Creating Purchase Order",
-          },
-          {
-            images: [
-              {
-                img: "screenshots/procurement-system/POList.png",
-                isSmall: false,
-              },
-            ],
-            label: "Purchase Order List",
-          },
-          {
-            images: [
-              {
-                img: "screenshots/procurement-system/CreateGRPO.png",
-                isSmall: false,
-              },
-            ],
-            label: "Creating GRPO",
-          },
-          {
-            images: [
-              {
-                img: "screenshots/procurement-system/CreateAP.png",
-                isSmall: false,
-              },
-            ],
-            label: "Making Account Payable",
-          },
-          {
-            images: [
-              {
-                img: "screenshots/procurement-system/ManageCategory.png",
-                isSmall: false,
-              },
-            ],
-            label: "Categories List",
-          },
-          {
-            images: [
-              {
-                img: "screenshots/procurement-system/ManageEmployee.png",
-                isSmall: false,
-              },
-            ],
-            label: "Manage Employee",
-          },
-          {
-            images: [
-              {
-                img: "screenshots/procurement-system/ManagePaymentTerms.png",
-                isSmall: false,
-              },
-            ],
-            label: "Manage Payment Terms",
-          },
-          {
-            images: [
-              {
-                img: "screenshots/procurement-system/ManageProduct.png",
-                isSmall: false,
-              },
-            ],
-            label: "Manage Products",
-          },
-          {
-            images: [
-              {
-                img: "screenshots/procurement-system/ManageSupplier.png",
-                isSmall: false,
-              },
-            ],
-            label: "Manage Suppliers",
-          },
-          {
-            images: [
-              {
-                img: "screenshots/procurement-system/ManageWallet.png",
-                isSmall: false,
-              },
-            ],
-            label: "Manage Wallets",
-          },
-          {
-            images: [
-              {
-                img: "screenshots/procurement-system/erd.jpg",
-                isSmall: false,
-              },
-            ],
-            label: "Entity Relationship Diagram Products",
-          },
-        ],
+        {
+          images: [
+            {
+              img: "screenshots/procurement-system/Dashboard.png",
+              isSmall: false,
+            },
+          ],
+          label: "Overview",
+        },
+        {
+          images: [
+            {
+              img: "screenshots/procurement-system/CreateQuote.png",
+              isSmall: false,
+            },
+          ],
+          label: "Creating Quotations",
+        },
+        {
+          images: [
+            {
+              img: "screenshots/procurement-system/CompareQuote.png",
+              isSmall: false,
+            },
+          ],
+          label: "Comparing Quotations",
+        },
+        {
+          images: [
+            {
+              img: "screenshots/procurement-system/QuotationWindow.png",
+              isSmall: false,
+            },
+          ],
+          label: "Quotation Window",
+        },
+        {
+          images: [
+            {
+              img: "screenshots/procurement-system/UpdateQuote.png",
+              isSmall: false,
+            },
+          ],
+          label: "Updating Quotation",
+        },
+        {
+          images: [
+            {
+              img: "screenshots/procurement-system/CreatePO.png",
+              isSmall: false,
+            },
+          ],
+          label: "Creating Purchase Order",
+        },
+        {
+          images: [
+            {
+              img: "screenshots/procurement-system/POList.png",
+              isSmall: false,
+            },
+          ],
+          label: "Purchase Order List",
+        },
+        {
+          images: [
+            {
+              img: "screenshots/procurement-system/CreateGRPO.png",
+              isSmall: false,
+            },
+          ],
+          label: "Creating GRPO",
+        },
+        {
+          images: [
+            {
+              img: "screenshots/procurement-system/CreateAP.png",
+              isSmall: false,
+            },
+          ],
+          label: "Making Account Payable",
+        },
+        {
+          images: [
+            {
+              img: "screenshots/procurement-system/ManageCategory.png",
+              isSmall: false,
+            },
+          ],
+          label: "Categories List",
+        },
+        {
+          images: [
+            {
+              img: "screenshots/procurement-system/ManageEmployee.png",
+              isSmall: false,
+            },
+          ],
+          label: "Manage Employee",
+        },
+        {
+          images: [
+            {
+              img: "screenshots/procurement-system/ManagePaymentTerms.png",
+              isSmall: false,
+            },
+          ],
+          label: "Manage Payment Terms",
+        },
+        {
+          images: [
+            {
+              img: "screenshots/procurement-system/ManageProduct.png",
+              isSmall: false,
+            },
+          ],
+          label: "Manage Products",
+        },
+        {
+          images: [
+            {
+              img: "screenshots/procurement-system/ManageSupplier.png",
+              isSmall: false,
+            },
+          ],
+          label: "Manage Suppliers",
+        },
+        {
+          images: [
+            {
+              img: "screenshots/procurement-system/ManageWallet.png",
+              isSmall: false,
+            },
+          ],
+          label: "Manage Wallets",
+        },
+        {
+          images: [
+            {
+              img: "screenshots/procurement-system/erd.jpg",
+              isSmall: false,
+            },
+          ],
+          label: "Entity Relationship Diagram Products",
+        },
+      ],
     },
   },
 ];
