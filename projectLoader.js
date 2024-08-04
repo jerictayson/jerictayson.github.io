@@ -47,6 +47,7 @@ function createProjectTemplate(data) {
 
 function createProjectModal(data) {
   return `
+    <!--${data.title}-->
         <div
       class="modal fade"
       id="${data.modalId}"
