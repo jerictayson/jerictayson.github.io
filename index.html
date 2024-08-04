@@ -64,7 +64,7 @@
       </div>
     </nav>
     <canvas id="demo-canvas"></canvas>
-    <main class="row container mx-auto justify-content-center">
+    <main class="row container mx-auto justify-content-center" id="main">
       <div class="row col-12 hero-content" id="home">
         <div
           class="col-xl-6 col-12 pt-xl-0 mt-xl-0 pt-5 mt-5 row align-items-center justify-content-center"
@@ -219,7 +219,7 @@
         </div>
 
         <div class="row" id="project-row">
-      </div>
+        </div>
       <div class="col-xl-12 col-11 col-md-12 p-5 pt-3 div-content" id="contact">
         <div
           class="div-header mt-1 mb-3 text-center d-flex justify-content-center"
@@ -236,7 +236,6 @@
         </div>
       </div>
     </main>
-
     <!-- Modal -->
     <!-- STILMS -->
     <div
@@ -1314,4 +1313,9 @@
       newlink.click();
     };
   </script>
+  <script type="module">
+    import projects from "./projects.js";
+    window.projects = projects;
+  </script>
+  <script src="./projectLoader.js"></script>
 </html>
