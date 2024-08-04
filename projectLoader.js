@@ -90,25 +90,26 @@ function createProjectModal(data) {
             ${data.screenshots
               .map(
                 (screenshot) => `
-                    ${screenshot.images
-                      .map(
-                        (image) =>
-                          `
-                          <img
-                        class="screenshot mb-2"
-                        src="${image}"
-                        alt=""
+                  ${screenshot.images
+                    .map(
+                      (image) => `
+                        <img
+                          class="screenshot mb-2 ${
+                            image.isSmall ? "screenshot-sm" : ""
+                          }"
+                          src="${image.img}"
+                          alt=""
                         />
-                          `
-                      )
-                      .join("")}
-                    <p style="text-align: center" class="screenshot-label">
+                      `
+                    )
+                    .join("")}
+                  <p style="text-align: center" class="screenshot-label">
                     <strong>${screenshot.label}</strong>
-                    </p>
+                  </p>
                 `
               )
-              .join("")}
-            ${data.footer ?? ""}
+              .join("")}           
+              ${data.footer ?? ""}
             </div>
           <div class="modal-footer">
             <button
