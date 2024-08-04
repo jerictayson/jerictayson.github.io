@@ -46,7 +46,6 @@ function createProjectTemplate(data) {
 }
 
 function createProjectModal(data) {
-  console.log(data);
   return `
         <div
       class="modal fade"
