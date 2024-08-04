@@ -70,7 +70,7 @@ function createProjectModal(data) {
               id="${data.title}"
               class="fw-bolder mb-3"
             >
-              ${data.title}
+              ${data.subTitle}
             </h3>
             <h5 class="fw-bold">Features</h5>
             <div class="p-3">
@@ -108,7 +108,7 @@ function createProjectModal(data) {
                 `
               )
               .join("")}
-            ${data.footer}
+            ${data.footer ?? ""}
             </div>
           <div class="modal-footer">
             <button
