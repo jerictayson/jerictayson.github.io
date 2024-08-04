@@ -14,6 +14,7 @@ const projects = [
     modal: {
       modalId: "stilms",
       title: "STI Library Management System",
+      subTitle: "Web based Library Management System for STI College Malolos",
       features: [
         "Multi User login for Librarian and Student Assistant",
         "Student Management - Add, Update, Delete, Search",
@@ -178,6 +179,94 @@ const projects = [
       "This project focuses on developing a real-time point of sales (POS) system tailored for businesses operating in the pandemic environment. The system is designed to provide a seamless and contactless shopping experience, prioritizing the health and safety of both customers and staff.",
     badges: ["C#", "Winforms", "SAP Crystal Report", "Microsoft SQL Server"],
     targetModal: "#pos",
+    modal: {
+      modalId: "pos",
+      title: "Point of Sales System",
+      subTitle: " Point of Sales System on Pandemic Environment.",
+      features: [
+        "Multi User Login with realtime features",
+        "Inventory Management - The system can Create, Update, Delete, Search products and categories",
+        "Account Management - The system can Add, Update, Delete, Search Accounts",
+        "Login History - The system can show login history of Users",
+        "Transaction History - The system can show transaction history of cashiers and other details",
+        "Account Changes History - The system can show history of account changes of users such as cashiers and admin",
+      ],
+
+      screenshots: [
+        {
+          images: ["screenshots/pos/Login.png"],
+          label: "Login UI",
+        },
+        {
+          images: ["screenshots/pos/CustomerUIDefault.png"],
+          label: "Customer UI",
+        },
+        {
+          images: ["screenshots/pos/CustomerUI.png"],
+          label: "Customer UI with Products",
+        },
+        {
+          images: ["screenshots/pos/TicketOrder.png"],
+          label: "Ticker Order",
+        },
+        {
+          images: ["screenshots/pos/LoginUI.png"],
+          label: "Login UI for Customer/Admin",
+        },
+        {
+          images: ["screenshots/pos/CashierWindow.png"],
+          label: "Cashier Window",
+        },
+        {
+          images: ["screenshots/pos/CashierOrder.png"],
+          label: "Cashier Processing Order",
+        },
+        {
+          images: ["screenshots/pos/Receipt.png"],
+          label: "Receipt Format",
+        },
+        {
+          images: ["screenshots/pos/CashierTransactionHistory.png"],
+          label: "Cashier Transaction History",
+        },
+        {
+          images: ["screenshots/pos/CashierInvetoryHistory.png"],
+          label: "Cashier View Inventory",
+        },
+        {
+          images: ["screenshots/pos/CashierOrder.png"],
+          label: "Cashier Processing Order",
+        },
+        {
+          images: ["screenshots/pos/AdminCashierHistories.png"],
+          label: "Admin UI",
+        },
+        {
+          images: ["screenshots/pos/AdminManageAccount.png"],
+          label: "Manage Accounts",
+        },
+        {
+          images: ["screenshots/pos/EmployeeInformation.png"],
+          label: "Employee Information",
+        },
+        {
+          images: ["screenshots/pos/AdminManageInventory.png"],
+          label: "Manage Inventory",
+        },
+        {
+          images: ["screenshots/pos/AdminInventoryChanges.png"],
+          label: "Inventory Changes Window",
+        },
+        {
+          images: ["screenshots/pos/AdminAccountChanges.png"],
+          label: "Account Changes Window",
+        },
+        {
+          images: ["screenshots/pos/erd.png"],
+          label: "Entity Relationship Diagram",
+        },
+      ],
+    },
   },
   {
     imagesSrc: "/screenshots/procurement-system/Dashboard.png",
