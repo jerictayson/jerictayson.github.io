@@ -512,22 +512,174 @@ const projects = [
       "Procurement system for Prudo School Supplies facilitates efficient management of procurement requests, supplier interactions, and order tracking, ensuring a smooth and organized workflow.",
     badges: ["C#", "Winforms", "SAP Crystal Report", "Microsoft SQL Server"],
     targetModal: "#procurement",
-  },
-  {
-    imagesSrc: "./screenshots/online-orders/Dashboard.png",
-    title: "Online Ordering System for Foster Foods Inc",
-    description: "A web online ordering system for Foster Foods Inc",
-    badges: [
-      "Javascript",
-      "JQuery",
-      "Bootstrap 5",
-      "ASP.Net Core MVC",
-      "Microsoft SQL Server",
-      "Dev Express Report",
-      "HTML",
-      "CSS",
-    ],
-    targetModal: "#onlineordering",
+    modal: {
+      modalId: "procurement",
+      title: "Procurement System",
+      subTitle: " Procurement System for Prudo School Supplies",
+      features: [
+        "Creation of multiple Request for Quotation to many suppliers",
+        "Creation of PO from a Quotation",
+        "Creation of Purchase Order from existing suppliers",
+        "Creation of GRPO from a Purchase Order",
+        "Track Accounts Payables of every suppliers",
+        "Add, Edit, Delete Suppliers Information",
+        "Add, Edit, Delete Inventory Products",
+        "Tracking of Purchase orders of items on suppliers",
+        "Track purchase price of products",
+        "Records Net Discount of Purchase Orders",
+        "Show reports of items on with purchase price and net discounts",
+        "Show reports of Fast and Non-Moving Items",
+        "Show reports of Purchase orders on suppliers",
+        "Add, Edit, Delete of Payment Terms",
+      ],
+      screenshots: [
+        
+          {
+            images: [
+              {
+                img: "screenshots/procurement-system/Dashboard.png",
+                isSmall: false,
+              },
+            ],
+            label: "Overview",
+          },
+          {
+            images: [
+              {
+                img: "screenshots/procurement-system/CreateQuote.png",
+                isSmall: false,
+              },
+            ],
+            label: "Creating Quotations",
+          },
+          {
+            images: [
+              {
+                img: "screenshots/procurement-system/CompareQuote.png",
+                isSmall: false,
+              },
+            ],
+            label: "Comparing Quotations",
+          },
+          {
+            images: [
+              {
+                img: "screenshots/procurement-system/QuotationWindow.png",
+                isSmall: false,
+              },
+            ],
+            label: "Quotation Window",
+          },
+          {
+            images: [
+              {
+                img: "screenshots/procurement-system/UpdateQuote.png",
+                isSmall: false,
+              },
+            ],
+            label: "Updating Quotation",
+          },
+          {
+            images: [
+              {
+                img: "screenshots/procurement-system/CreatePO.png",
+                isSmall: false,
+              },
+            ],
+            label: "Creating Purchase Order",
+          },
+          {
+            images: [
+              {
+                img: "screenshots/procurement-system/POList.png",
+                isSmall: false,
+              },
+            ],
+            label: "Purchase Order List",
+          },
+          {
+            images: [
+              {
+                img: "screenshots/procurement-system/CreateGRPO.png",
+                isSmall: false,
+              },
+            ],
+            label: "Creating GRPO",
+          },
+          {
+            images: [
+              {
+                img: "screenshots/procurement-system/CreateAP.png",
+                isSmall: false,
+              },
+            ],
+            label: "Making Account Payable",
+          },
+          {
+            images: [
+              {
+                img: "screenshots/procurement-system/ManageCategory.png",
+                isSmall: false,
+              },
+            ],
+            label: "Categories List",
+          },
+          {
+            images: [
+              {
+                img: "screenshots/procurement-system/ManageEmployee.png",
+                isSmall: false,
+              },
+            ],
+            label: "Manage Employee",
+          },
+          {
+            images: [
+              {
+                img: "screenshots/procurement-system/ManagePaymentTerms.png",
+                isSmall: false,
+              },
+            ],
+            label: "Manage Payment Terms",
+          },
+          {
+            images: [
+              {
+                img: "screenshots/procurement-system/ManageProduct.png",
+                isSmall: false,
+              },
+            ],
+            label: "Manage Products",
+          },
+          {
+            images: [
+              {
+                img: "screenshots/procurement-system/ManageSupplier.png",
+                isSmall: false,
+              },
+            ],
+            label: "Manage Suppliers",
+          },
+          {
+            images: [
+              {
+                img: "screenshots/procurement-system/ManageWallet.png",
+                isSmall: false,
+              },
+            ],
+            label: "Manage Wallets",
+          },
+          {
+            images: [
+              {
+                img: "screenshots/procurement-system/erd.jpg",
+                isSmall: false,
+              },
+            ],
+            label: "Entity Relationship Diagram Products",
+          },
+        ],
+    },
   },
 ];
 
