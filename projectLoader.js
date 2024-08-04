@@ -48,7 +48,7 @@ function createProjectTemplate(data) {
 function createProjectModal(data) {
   return `
     <!--${data.title}-->
-        <div
+    <div
       class="modal fade"
       id="${data.modalId}"
       tabindex="-1"
@@ -81,37 +81,48 @@ function createProjectModal(data) {
                     (feature) =>
                       `<li><input type="checkbox" checked />
                         ${feature}
-                      </li>
-                        `
+                      </li>`
                   )
                   .join("")}
-                </ul>
+              </ul>
             </div>
             <h5 class="mb-3">Screenshots</h5>
-            ${data.screenshots
-              .map(
-                (screenshot) => `
-                  ${screenshot.images
-                    .map(
-                      (image) => `
-                        <img
-                          class="screenshot mb-2 ${
-                            image.isSmall ? "screenshot-sm" : ""
-                          }"
-                          src="${image.img}"
-                          alt=""
-                        />
-                      `
-                    )
-                    .join("")}
-                  <p style="text-align: center" class="screenshot-label">
-                    <strong>${screenshot.label}</strong>
-                  </p>
-                `
-              )
-              .join("")}           
-              ${data.footer ?? ""}
+            <div id="${data.modalId}-carousel" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                ${data.screenshots
+                  .map(
+                    (screenshot, index) => `
+                      <div class="carousel-item ${index === 0 ? 'active' : ''}">
+                        ${screenshot.images
+                          .map(
+                            (image) => `
+                              <img
+                                class="d-block w-100 mb-2 ${image.isSmall ? "screenshot-sm" : "screenshot"}"
+                                src="${image.img}"
+                                alt=""
+                              />
+                            `
+                          )
+                          .join("")}
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>${screenshot.label}</h5>
+                          <p>${screenshot.caption ?? ''}</p>
+                        </div>
+                      </div>`
+                  )
+                  .join("")}
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#${data.modalId}-carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#${data.modalId}-carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
             </div>
+            ${data.footer ?? ""}
+          </div>
           <div class="modal-footer">
             <button
               type="button"
