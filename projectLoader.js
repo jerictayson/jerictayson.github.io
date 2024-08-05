@@ -1,5 +1,4 @@
 $(function () {
-  console.log("Ready!");
   const projectRow = $("#project-row");
   const main = $("#main");
   const projects = window.projects;
