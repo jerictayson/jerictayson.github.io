@@ -34,7 +34,7 @@ function createProjectTemplate(data) {
                     ${data.badges
                       .map(
                         (badge) =>
-                          `<span class="badge rounded-pill text-bg-primary">${badge}</span>`
+                          `<span class="badge rounded-pill text-bg-primary me-1">${badge}</span>`
                       )
                       .join("")}
                   </div>
