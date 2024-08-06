@@ -314,9 +314,9 @@ const projects = [
       ],
       footer: `
     <p>
-              Developed by:
+              Lead Developer:
               <a href="https://gitlab.com/jerictayson">Jeric Tayson</a> <br />
-              Documentators: Ronaldo Orantia, Kyle Samuel Cruz <br />
+              Documentations: Ronaldo Orantia, Kyle Samuel Cruz <br />
               Capstone Project for STI College Malolos
             </p>
     `,
@@ -506,6 +506,13 @@ const projects = [
           label: "Entity Relationship Diagram",
         },
       ],
+      footer: `
+            <p>
+              Lead Developer:
+              <a href="https://gitlab.com/jerictayson">Jeric Tayson</a> <br />
+              Documentations: Rhaymond De Jesus, Erika Santos <br/>
+            </p>
+    `,
     },
   },
   {
@@ -681,6 +688,14 @@ const projects = [
           label: "Entity Relationship Diagram Products",
         },
       ],
+      footer: `
+    <p>
+              Lead Developer, Team Leader:
+              <a href="https://gitlab.com/jerictayson">Jeric Tayson</a> <br />
+              UI Designer: Clarence Flaviano <br/>
+              Documentations: Paolo Jasmin, Kyle Samuel Cruz <br />
+            </p>
+    `,
     },
   },
   {
@@ -698,6 +713,7 @@ const projects = [
       "Javascript",
       "Bootstrap 5",
       "JQuery",
+        "Entity Framework Core"
     ],
     targetModal: "#online-ordering",
     modal: {
@@ -926,7 +942,13 @@ const projects = [
           label: "Purchase Order Report using DevExpress",
         },
       ],
-      
+      footer: `
+            <p>
+              Lead Developer:
+              <a href="https://gitlab.com/jerictayson">Jeric Tayson</a> <br />
+              UI Designer: Jeric Tayson <br/>
+            </p>
+    `,
     },
   },
 ];
