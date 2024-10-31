@@ -222,6 +222,20 @@
         </div>
 
       </div>
+      <div
+        class="col-xl-12 col-11 col-md-12 p-5 mt-3 pt-3 div-content"
+        id="certificates"
+      >
+        <div
+          class="div-header mt-1 mb-3 text-center d-flex justify-content-center"
+        >
+          <h1>My Certificates</h1>
+        </div>
+
+        <div class="row" id="certificates-row">
+        </div>
+
+      </div>
 
       <div class="col-xl-12 col-11 col-md-12 p-5 pt-3 div-content mt-3" id="contact">
         <div
@@ -296,7 +310,10 @@
   </script>
   <script type="module">
     import projects from "./projects.js";
+    import certificates from './certificates.js';
     window.projects = projects;
+    window.certificates = certificates;
   </script>
   <script src="./projectLoader.js"></script>
+  <script src="./certificatesLoader.js"></script>
 </html>

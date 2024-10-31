@@ -3,12 +3,12 @@ $(function () {
   const main = $("#main");
   const projects = window.projects;
   for (let i = 0; i < projects.length; i++) {
-    projectRow.append(createProjectTemplate(projects[i]));
+    projectRow.append(createProjectTemplates(projects[i]));
     main.after(createProjectModal(projects[i].modal));
   }
 });
 
-function createProjectTemplate(data) {
+function createProjectTemplates(data) {
   return `
         <div class="col-xl-4 col-12 project">
             <button
