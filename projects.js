@@ -941,6 +941,15 @@ const projects = [
           ],
           label: "Purchase Order Report using DevExpress",
         },
+        {
+          images: [
+            {
+              img: "screenshots/online-orders/ERD.png",
+              isSmall: false,
+            },
+          ],
+          label: "Entity Relationship Diagram",
+        }
       ],
       footer: `
             <p>
